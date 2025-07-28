@@ -82,3 +82,44 @@ Your average score might look fair — but:
 
 ## 🧾 Project Structure
 
+bias-audit-toxic-language/
+├── data/
+│ ├── labeled_data.csv # Original Kaggle dataset
+│ └── test_templates.csv # Custom test sentences
+├── notebooks/
+│ └── bias_analysis.ipynb # Full analysis notebook
+├── results/
+│ ├── group_scores.png # Bar chart of average toxicity by group
+│ └── lime_explanations/ # Visual LIME outputs
+├── requirements.txt # Python dependencies
+├── README.md # This file
+
+
+---
+
+## 📦 Requirements
+
+Install dependencies with:
+
+pip install -r requirements.txt
+
+🔧 Tech Stack
+Python (scikit-learn, pandas, matplotlib)
+
+LIME
+
+Google Colab
+
+Google Perspective API
+
+Statistical tests (ANOVA, variance)
+
+Explainable AI
+
+
+
+✍️ Author & Credits
+Created by Purvi Jain
+Part of the AI Ethics Explorer initiative
+🔗 https://purvi9399.github.io/
+
